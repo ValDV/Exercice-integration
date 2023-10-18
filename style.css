@@ -1,4 +1,8 @@
-.Menu {
+html {
+    width: 670px; /* Largeur souhaitée */
+  }
+  
+  .Menu {
     background-color: #A6292A;
     text-align: center;
     color: #FA0F13;
@@ -7,7 +11,7 @@
   }
   
   .menu-title {
-    font-size: 24px;
+    font-size: 30px;
   }
   
   .Corps {
@@ -31,14 +35,17 @@
   
   .column-left {
     background-color: #2677A5;
-    padding: 20px;
     flex: 1;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   
   .column-right {
     background-color: #47E187;
-    padding: 20px;
     flex: 1;
+    text-align: center;
   }
   
   .table {
@@ -53,7 +60,6 @@
   .Footer {
     background-color: #BDB76B;
     text-align: center;
-    padding: 10px;
     height: 100px;
   }
   
